@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d9b3e3f3_002D0191_002D47b8_002D849d_002Dc899941b1a6d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Hello" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::C8437830-E294-4D9C-8366-9CA32395C7FF::.NETCoreApp,Version=v3.1::VMIRestaurant.UnitTests.data.csv.CsvDataProviderTests.provides_data&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C8437830-E294-4D9C-8366-9CA32395C7FF::.NETCoreApp,Version=v3.1::VMIRestaurant.UnitTests.data.csv.CsvFileReaderTests.errors_only_when_file_is_not_found&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C8437830-E294-4D9C-8366-9CA32395C7FF::.NETCoreApp,Version=v3.1::VMIRestaurant.UnitTests.data.csv.CsvFileReaderTests.errors_when_file_is_not_found&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C8437830-E294-4D9C-8366-9CA32395C7FF::.NETCoreApp,Version=v3.1::VMIRestaurant.UnitTests.data.csv.CsvFileReaderTests.reads_csv_file&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C8437830-E294-4D9C-8366-9CA32395C7FF::.NETCoreApp,Version=v3.1::VMIRestaurant.UnitTests.data.csv.CsvFileReaderTests.errors_when_file_is_not_of_type_csv&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C8437830-E294-4D9C-8366-9CA32395C7FF::.NETCoreApp,Version=v3.1::VMIRestaurant.UnitTests.data.csv.CsvFileReaderTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
