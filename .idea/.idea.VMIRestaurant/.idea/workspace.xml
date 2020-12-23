@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15ef08cb-8576-4834-8cf9-37738dfcf3fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VMIRestaurant.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VMIRestaurant/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VMIRestaurant/VMIRestaurant.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/CsvFileReaderTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/CsvFileReaderTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/IngredientMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/IngredientMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Ingredient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Ingredient.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +48,22 @@
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/providers/CsvFileReader.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/common/IEntity.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Dish.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Ingredient.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Order.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/CsvDataProvider.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/DishMapper.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/OrderMapper.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/IngredientMapper.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/ICsvEntityMapper.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/CsvFileReader.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/Program.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/data/file.csv" />
       <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/data/file.txt" />
       <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/CsvDataProviderTests.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/data/file.csv" />
       <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/CsvFileReaderTests.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/mapper/DishMapperTests.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Ingredient.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/IngredientMapper.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/mapper/IngredientMapperTests.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/mapper/OrderMapperTests.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m457jJjQCcoqEAp9UeWKEGHqYO" />
@@ -106,8 +108,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608739860436</updated>
-      <workItem from="1608739865776" duration="18885000" />
+      <workItem from="1608739865776" duration="20998000" />
     </task>
+    <task id="LOCAL−00001" summary="add data reading from csv">
+      <created>1608759918288</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1608759918288</updated>
+    </task>
+    <task id="LOCAL−00002" summary="add data reading from csv tests">
+      <created>1608759936390</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1608759936390</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,5 +143,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="add data reading from csv" />
+    <MESSAGE value="add data reading from csv tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add data reading from csv tests" />
   </component>
 </project>

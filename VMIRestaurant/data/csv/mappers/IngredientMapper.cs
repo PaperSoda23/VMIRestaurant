@@ -17,9 +17,9 @@ namespace VMIRestaurant.data.csv.mappers
             {
                 Id = int.Parse(enumerable[0]),
                 Name = enumerable[1],
-                Stock = float.Parse(enumerable[2]),
+                Stock = double.Parse(enumerable[2]),
                 UnitMeasure = enumerable[3].ToEnum<UnitMeasure>(),
-                AmountInPortion = float.Parse(enumerable[4], CultureInfo.InvariantCulture)
+                AmountInPortion = double.Parse(enumerable[4], CultureInfo.InvariantCulture)
             };
         }
     }

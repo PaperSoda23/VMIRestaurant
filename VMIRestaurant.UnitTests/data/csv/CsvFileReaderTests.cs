@@ -38,6 +38,7 @@ namespace VMIRestaurant.UnitTests.data.csv
             var ex = await Assert.ThrowsAsync<ArgumentException>(
                 () => CsvFileReader.ReadData(TestFileDirectory, "file.txt")
             );
+            
             Assert.Equal("file file.txt is not a csv file", ex.Message);
         }
 

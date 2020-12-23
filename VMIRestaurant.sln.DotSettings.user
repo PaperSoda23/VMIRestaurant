@@ -7,5 +7,10 @@
     &lt;TestId&gt;xUnit::C8437830-E294-4D9C-8366-9CA32395C7FF::.NETCoreApp,Version=v3.1::VMIRestaurant.UnitTests.data.csv.CsvFileReaderTests.reads_csv_file&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::C8437830-E294-4D9C-8366-9CA32395C7FF::.NETCoreApp,Version=v3.1::VMIRestaurant.UnitTests.data.csv.CsvFileReaderTests.errors_when_file_is_not_of_type_csv&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::C8437830-E294-4D9C-8366-9CA32395C7FF::.NETCoreApp,Version=v3.1::VMIRestaurant.UnitTests.data.csv.CsvFileReaderTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C8437830-E294-4D9C-8366-9CA32395C7FF::.NETCoreApp,Version=v3.1::VMIRestaurant.UnitTests.data.csv.mapper.DishMapperTests.maps_dish&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C8437830-E294-4D9C-8366-9CA32395C7FF::.NETCoreApp,Version=v3.1::VMIRestaurant.UnitTests.data.csv.mapper.DishMapperTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C8437830-E294-4D9C-8366-9CA32395C7FF::.NETCoreApp,Version=v3.1::VMIRestaurant.UnitTests.data.csv.mapper.IngredientMapperTests.maps_dish&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C8437830-E294-4D9C-8366-9CA32395C7FF::.NETCoreApp,Version=v3.1::VMIRestaurant.UnitTests.data.csv.mapper.OrderMapperTests.maps_order&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C8437830-E294-4D9C-8366-9CA32395C7FF::.NETCoreApp,Version=v3.1::VMIRestaurant.UnitTests.data.csv.mapper.IngredientMapperTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
