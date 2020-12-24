@@ -46,9 +46,9 @@ namespace VMIRestaurant
             
             orders.ForEach(order =>
             {
-                var (orderId, processedOrder) =  restaurant.ProcessOrder(order);
+                var (orderId, preparedDishes) =  restaurant.ProcessOrder(order);
                 Console.WriteLine($"Order ID: {orderId}");
-                processedOrder.ForEach(Console.WriteLine);
+                preparedDishes.ForEach(Console.WriteLine);
             });
             Console.WriteLine();
 
