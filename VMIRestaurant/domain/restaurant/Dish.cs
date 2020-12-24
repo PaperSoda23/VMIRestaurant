@@ -8,5 +8,7 @@ namespace VMIRestaurant.domain.restaurant
         public int Id { get; set; }
         public string Name { get; set; }
         public List<int> IngredientIds { get; set; }
+
+        public override string ToString() => $"[Dish]=Id:{Id} Name:{Name} Ingredients:[{string.Join(",", IngredientIds)}]";
     }
 }

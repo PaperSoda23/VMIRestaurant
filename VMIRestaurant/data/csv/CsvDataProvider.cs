@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using VMIRestaurant.common;
-using VMIRestaurant.data.csv.mappers;
+using VMIRestaurant.data.csv.mapper;
 
 namespace VMIRestaurant.data.csv
 {

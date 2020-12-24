@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using VMIRestaurant.data.csv;
-using VMIRestaurant.data.csv.mappers;
+using VMIRestaurant.data.csv.mapper;
+using VMIRestaurant.data.repository;
+using VMIRestaurant.domain;
 using VMIRestaurant.domain.restaurant;
 
 namespace VMIRestaurant
@@ -23,12 +26,32 @@ namespace VMIRestaurant
             
             var dishCsvData = await CsvFileReader.ReadData(directoryCsvResource, fileCsvDish);
             var dishes = CsvDataProvider<Dish>.ProvideData(dishCsvData, new DishMapper());
+
             
+            var ingredientRepo = new IngredientRepository(ingredients);
+            var dishRepo = new DishRepository(dishes);
             
+            IRestaurant restaurant = new Restaurant(
+                ingredientRepo,
+                dishRepo
+            );
+
+
+            Console.WriteLine("Before:");
+            ingredientRepo.GetAll().ForEach(Console.WriteLine);
+            dishRepo.GetAll().ForEach(Console.WriteLine);
+            Console.WriteLine();
             
-            Console.WriteLine(ingredients[0].UnitMeasure);
-            Console.WriteLine(dishes[0].Name);
-            Console.WriteLine(orders[0].Date);
+            orders.ForEach(order =>
+            {
+                var (orderId, processedOrder) =  restaurant.ProcessOrder(order);
+                Console.WriteLine($"Order ID: {orderId}");
+                processedOrder.ForEach(Console.WriteLine);
+            });
+            Console.WriteLine();
+
+            Console.WriteLine("After:");
+            ingredientRepo.GetAll().ForEach(Console.WriteLine);
         }
     }
 }

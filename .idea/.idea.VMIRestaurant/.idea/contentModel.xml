@@ -22,7 +22,7 @@
           <e p="csv" t="Include">
             <e p="CsvDataProvider.cs" t="Include" />
             <e p="CsvFileReader.cs" t="Include" />
-            <e p="mappers" t="Include">
+            <e p="mapper" t="Include">
               <e p="DishMapper.cs" t="Include" />
               <e p="ICsvEntityMapper.cs" t="Include" />
               <e p="IngredientMapper.cs" t="Include" />
@@ -34,14 +34,26 @@
               <e p="order.csv" t="Include" />
             </e>
           </e>
+          <e p="repository" t="Include">
+            <e p="DishRepository.cs" t="Include" />
+            <e p="IngredientRepository.cs" t="Include" />
+            <e p="InMemoeryEntityRepository.cs" t="Include" />
+            <e p="interface" t="Include">
+              <e p="IDishRepository.cs" t="Include" />
+              <e p="IIngredientRepository.cs" t="Include" />
+              <e p="IRepository.cs" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="domain" t="Include">
+          <e p="IRestaurant.cs" t="Include" />
           <e p="restaurant" t="Include">
             <e p="Dish.cs" t="Include" />
             <e p="Ingredient.cs" t="Include" />
             <e p="Order.cs" t="Include" />
             <e p="UnitMeasure.cs" t="Include" />
           </e>
+          <e p="Restaurant.cs" t="Include" />
         </e>
         <e p="extensions" t="Include">
           <e p="EnumExtensions.cs" t="Include" />
@@ -73,6 +85,12 @@
               <e p="OrderMapperTests.cs" t="Include" />
             </e>
           </e>
+          <e p="repository" t="Include">
+            <e p="InMemoryRepositoryTests.cs" t="Include" />
+          </e>
+        </e>
+        <e p="domain" t="Include">
+          <e p="RestaurantTests.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -81,7 +99,6 @@
             </e>
           </e>
         </e>
-        <e p="UnitTest1.cs" t="Include" />
         <e p="VMIRestaurant.UnitTests.csproj" t="IncludeRecursive" />
       </e>
     </e>

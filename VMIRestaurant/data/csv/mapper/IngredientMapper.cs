@@ -5,7 +5,7 @@ using VMIRestaurant.common;
 using VMIRestaurant.domain.restaurant;
 using VMIRestaurant.extensions;
 
-namespace VMIRestaurant.data.csv.mappers
+namespace VMIRestaurant.data.csv.mapper
 {
     public class IngredientMapper : ICsvEntityMapper
     {

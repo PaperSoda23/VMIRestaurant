@@ -5,9 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15ef08cb-8576-4834-8cf9-37738dfcf3fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/CsvFileReaderTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/CsvFileReaderTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/IngredientMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/IngredientMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VMIRestaurant/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VMIRestaurant/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VMIRestaurant/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VMIRestaurant/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant.UnitTests/UnitTest1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/CsvDataProviderTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/CsvDataProviderTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/mapper/DishMapperTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/mapper/DishMapperTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/mapper/IngredientMapperTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/mapper/IngredientMapperTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/mapper/OrderMapperTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/mapper/OrderMapperTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant/VMIRestaurant.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/VMIRestaurant.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/CsvDataProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/CsvDataProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/DishMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/DishMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/ICsvEntityMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/ICsvEntityMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/IngredientMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/IngredientMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/OrderMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/OrderMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/resource/dish.csv" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/resource/dish.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/resource/ingredient.csv" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/resource/ingredient.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/resource/order.csv" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/resource/order.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Dish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Dish.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Ingredient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Ingredient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Order.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,46 +42,57 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/UnitTest1.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/data/providers/csv/hello.csv" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/data/providers/IDataProvider.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/resource/csv/hello.csv" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/resource/csv/menu.csv" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/resource/csv/ingredient.csv" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/resource/csv/order.csv" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/data/providers/csv/CsvReader.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/restaurant/Unit.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/restaurant/UnitMeasure.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/restaurant/Ingredient.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/extensions/EnumExtensions.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/data/mappers/csv/IngredientMapper.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/providers/IDataProvider.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/IEntity.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/UnitMeasure.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/ICsvMapper.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/resource/ingredient.csv" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/providers/CsvProvider.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/providers/CsvReader.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/providers/CsvDataProvider.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/providers/CsvFileReader.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/common/IEntity.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Dish.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Order.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/CsvDataProvider.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/DishMapper.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/OrderMapper.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/ICsvEntityMapper.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/CsvFileReader.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/Program.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/data/file.txt" />
       <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/CsvDataProviderTests.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/data/file.csv" />
       <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/CsvFileReaderTests.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/mapper/DishMapperTests.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Ingredient.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/IngredientMapper.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/mapper/IngredientMapperTests.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/mapper/OrderMapperTests.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/ICsvEntityMapper.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/DishMapper.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/IngredientMapper.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/OrderMapper.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Restaurant.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/DishDTO.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/resource/ingredient.csv" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/resource/order.csv" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/resource/dish.csv" />
+      <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/domain/Restaurant.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/repository/IRepository.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/repository/IDishRepository.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/repository/EntityRepository.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/repository/IIngredientRepository.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/repository/interface/EntityRepository.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/repository/interface/InMemoeryEntityRepository.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/common/IEntity.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/repository/interface/IDishRepository.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/repository/DishRepository.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/repository/interface/IIngredientRepository.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/repository/IngredientRepository.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/repository/InMemoryRepositoryTests.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/repository/interface/IRepository.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/repository/InMemoeryEntityRepository.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Dish.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Order.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/domain/IRestaurant.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/Program.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Ingredient.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/domain/Restaurant.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/domain/RestaurantTests.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m457jJjQCcoqEAp9UeWKEGHqYO" />
@@ -73,7 +102,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34991708" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35012594" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -108,7 +137,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608739860436</updated>
-      <workItem from="1608739865776" duration="20998000" />
+      <workItem from="1608739865776" duration="27158000" />
+      <workItem from="1608794507275" duration="40527000" />
     </task>
     <task id="LOCAL−00001" summary="add data reading from csv">
       <created>1608759918288</created>
@@ -122,13 +152,19 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1608759936390</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="add mapper tests">
+      <created>1608761041232</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1608761041232</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -140,11 +176,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add data reading from csv" />
     <MESSAGE value="add data reading from csv tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add data reading from csv tests" />
+    <MESSAGE value="add mapper tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mapper tests" />
   </component>
 </project>

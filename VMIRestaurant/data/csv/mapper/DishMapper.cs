@@ -3,7 +3,7 @@ using System.Linq;
 using VMIRestaurant.common;
 using VMIRestaurant.domain.restaurant;
 
-namespace VMIRestaurant.data.csv.mappers
+namespace VMIRestaurant.data.csv.mapper
 {
     public class DishMapper : ICsvEntityMapper
     {

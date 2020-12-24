@@ -2,7 +2,7 @@
 using Moq;
 using VMIRestaurant.common;
 using VMIRestaurant.data.csv;
-using VMIRestaurant.data.csv.mappers;
+using VMIRestaurant.data.csv.mapper;
 using Xunit;
 
 namespace VMIRestaurant.UnitTests.data.csv

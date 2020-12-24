@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using VMIRestaurant.data.csv.mappers;
+using VMIRestaurant.data.csv.mapper;
 using VMIRestaurant.domain.restaurant;
 using Xunit;
 
