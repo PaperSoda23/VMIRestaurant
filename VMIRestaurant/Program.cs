@@ -1,11 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
 using VMIRestaurant.data.csv;
 using VMIRestaurant.data.csv.mapper;
 using VMIRestaurant.data.repository;
 using VMIRestaurant.domain;
 using VMIRestaurant.domain.restaurant;
+using VMIRestaurant.helper;
 
 namespace VMIRestaurant
 {
@@ -13,11 +14,12 @@ namespace VMIRestaurant
     {
         public static async Task Main(string[] args)
         {
-            const string directoryCsvResource = @"C:\Users\Lukas\Desktop\DirtyRider\VMIRestaurant\VMIRestaurant\data\csv\resource";
+            string projectRootDir = DirectoryHelper.GetProjectRootDir();
+            string directoryCsvResource = Path.Combine(projectRootDir, @"data\csv\resource");
             const string fileCsvIngredient = "ingredient.csv";
             const string fileCsvOrder = "order.csv";
             const string fileCsvDish = "dish.csv";
-           
+            
             var ingredientCsvData = await CsvFileReader.ReadData(directoryCsvResource, fileCsvIngredient);
             var ingredients = CsvDataProvider<Ingredient>.ProvideData(ingredientCsvData, new IngredientMapper());
             

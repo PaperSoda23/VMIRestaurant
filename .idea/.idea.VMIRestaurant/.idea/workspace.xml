@@ -4,7 +4,13 @@
     <projectFile>VMIRestaurant/VMIRestaurant.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ef08cb-8576-4834-8cf9-37738dfcf3fa" name="Default Changelist" comment="" />
+    <list default="true" id="15ef08cb-8576-4834-8cf9-37738dfcf3fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VMIRestaurant/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VMIRestaurant/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VMIRestaurant/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VMIRestaurant/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/IngredientMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/IngredientMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant/extensions/EnumExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/extension/EnumExtensions.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +27,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/IEntity.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/UnitMeasure.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/ICsvMapper.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/providers/CsvProvider.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/providers/CsvReader.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/providers/CsvDataProvider.cs" />
@@ -44,7 +47,6 @@
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/ICsvEntityMapper.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/DishMapper.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/IngredientMapper.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/OrderMapper.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Restaurant.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/DishDTO.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/resource/ingredient.csv" />
@@ -68,10 +70,14 @@
       <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Dish.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Order.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/domain/IRestaurant.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/Program.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Ingredient.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/domain/Restaurant.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/domain/RestaurantTests.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/OrderMapper.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/utility/DirectoryHelper.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/extension/EnumExtensions.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/Program.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant/helper/DirectoryHelper.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m457jJjQCcoqEAp9UeWKEGHqYO" />
@@ -86,6 +92,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Project.VMIRestaurant">
@@ -117,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608739860436</updated>
       <workItem from="1608739865776" duration="27158000" />
-      <workItem from="1608794507275" duration="41088000" />
+      <workItem from="1608794507275" duration="42120000" />
     </task>
     <task id="LOCAL−00001" summary="add data reading from csv">
       <created>1608759918288</created>
@@ -143,7 +150,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1608839795350</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="restaurant, repository, tests">
+      <created>1608839857410</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1608839857410</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

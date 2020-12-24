@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace VMIRestaurant.extensions
+namespace VMIRestaurant.extension
 {
     public static class EnumExtensions
     {

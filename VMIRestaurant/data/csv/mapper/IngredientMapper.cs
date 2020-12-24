@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Linq;
 using VMIRestaurant.common;
 using VMIRestaurant.domain.restaurant;
-using VMIRestaurant.extensions;
+using VMIRestaurant.extension;
 
 namespace VMIRestaurant.data.csv.mapper
 {
