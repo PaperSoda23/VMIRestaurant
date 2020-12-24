@@ -89,6 +89,8 @@
             </e>
           </e>
           <e p="repository" t="Include">
+            <e p="DishRepositoryTests.cs" t="Include" />
+            <e p="IngredientRepositoryTests.cs" t="Include" />
             <e p="InMemoryRepositoryTests.cs" t="Include" />
           </e>
         </e>

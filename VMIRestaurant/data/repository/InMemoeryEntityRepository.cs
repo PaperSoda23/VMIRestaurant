@@ -32,8 +32,9 @@ namespace VMIRestaurant.data.repository
             var maxCurrentId = 0;
             if (Entities.Count != 0) 
                 maxCurrentId = Entities.Max(e => e.Key);
-            
-            Entities.Add(maxCurrentId + 1, entity);
+
+            entity.Id = maxCurrentId + 1;
+            Entities.Add(entity.Id, entity);
             
             return entity;
         }

@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15ef08cb-8576-4834-8cf9-37738dfcf3fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VMIRestaurant/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VMIRestaurant/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VMIRestaurant/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VMIRestaurant/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/IngredientMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/IngredientMapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant/extensions/EnumExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/extension/EnumExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/repository/InMemoryRepositoryTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/repository/InMemoryRepositoryTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +24,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/providers/CsvProvider.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/providers/CsvReader.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/providers/CsvDataProvider.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/providers/CsvFileReader.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/csv/CsvDataProvider.cs" />
@@ -64,7 +59,6 @@
       <option value="$PROJECT_DIR$/VMIRestaurant/data/repository/DishRepository.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/repository/interface/IIngredientRepository.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/repository/IngredientRepository.cs" />
-      <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/repository/InMemoryRepositoryTests.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/repository/interface/IRepository.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/data/repository/InMemoeryEntityRepository.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Dish.cs" />
@@ -78,6 +72,9 @@
       <option value="$PROJECT_DIR$/VMIRestaurant/extension/EnumExtensions.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/Program.cs" />
       <option value="$PROJECT_DIR$/VMIRestaurant/helper/DirectoryHelper.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/repository/DishRepositoryTests.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/repository/IngredientRepositoryTests.cs" />
+      <option value="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/repository/InMemoryRepositoryTests.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1m457jJjQCcoqEAp9UeWKEGHqYO" />
@@ -124,7 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608739860436</updated>
       <workItem from="1608739865776" duration="27158000" />
-      <workItem from="1608794507275" duration="42120000" />
+      <workItem from="1608794507275" duration="43558000" />
     </task>
     <task id="LOCAL−00001" summary="add data reading from csv">
       <created>1608759918288</created>
@@ -156,7 +153,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1608839857410</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="make data directory dynamic">
+      <created>1608840900005</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1608840900005</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +185,7 @@
     <MESSAGE value="add data reading from csv tests" />
     <MESSAGE value="add mapper tests" />
     <MESSAGE value="restaurant, repository, tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="restaurant, repository, tests" />
+    <MESSAGE value="make data directory dynamic" />
+    <option name="LAST_COMMIT_MESSAGE" value="make data directory dynamic" />
   </component>
 </project>

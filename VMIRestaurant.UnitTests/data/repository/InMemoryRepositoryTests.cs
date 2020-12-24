@@ -48,6 +48,19 @@ namespace VMIRestaurant.UnitTests.data.repository
         }
 
         [Fact]
+        public void increments_entity_id_when_new_entity_is_added()
+        {
+            var entities = new List<MockEntity>{new MockEntity {Id = 8}};
+            var newEntity = new MockEntity();
+            var mockRepository = new MockRepository(entities);
+            
+            mockRepository.Add(newEntity);
+            
+            Assert.Equal(9, newEntity.Id);
+            Assert.True(mockRepository.Exists(9));
+        }
+
+        [Fact]
         public void errors_when_adding_entity_with_existing_key()
         {
             var entities = new List<MockEntity>{new MockEntity {Id = 1}};
