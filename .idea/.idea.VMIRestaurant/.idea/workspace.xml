@@ -4,29 +4,7 @@
     <projectFile>VMIRestaurant/VMIRestaurant.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ef08cb-8576-4834-8cf9-37738dfcf3fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VMIRestaurant/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VMIRestaurant/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VMIRestaurant/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VMIRestaurant/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant.UnitTests/UnitTest1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/CsvDataProviderTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/CsvDataProviderTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/mapper/DishMapperTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/mapper/DishMapperTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/mapper/IngredientMapperTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/mapper/IngredientMapperTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/mapper/OrderMapperTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant.UnitTests/data/csv/mapper/OrderMapperTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant/VMIRestaurant.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/VMIRestaurant.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/CsvDataProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/CsvDataProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/DishMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/DishMapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/ICsvEntityMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/ICsvEntityMapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/IngredientMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/IngredientMapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/mappers/OrderMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/mapper/OrderMapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/resource/dish.csv" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/resource/dish.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/resource/ingredient.csv" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/resource/ingredient.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant/data/csv/resource/order.csv" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/data/csv/resource/order.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Dish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Dish.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Ingredient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Ingredient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VMIRestaurant/domain/restaurant/Order.cs" afterDir="false" />
-    </list>
+    <list default="true" id="15ef08cb-8576-4834-8cf9-37738dfcf3fa" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +15,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/a3/e1b3cc41/ICollection`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Lukas/Desktop/DirtyRider/VMIRestaurant/VMIRestaurant.UnitTests/data/csv/mapper/OrderMapperTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/fc/43771f68/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9CD23B5E-3B0C-4F80-A807-33BCFD1D82E1/97/8d7382c2/Single.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -138,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608739860436</updated>
       <workItem from="1608739865776" duration="27158000" />
-      <workItem from="1608794507275" duration="40527000" />
+      <workItem from="1608794507275" duration="41088000" />
     </task>
     <task id="LOCAL−00001" summary="add data reading from csv">
       <created>1608759918288</created>
@@ -158,7 +137,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1608761041232</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="restaurant, repository, tests">
+      <created>1608839795350</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1608839795350</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +168,7 @@
     <MESSAGE value="add data reading from csv" />
     <MESSAGE value="add data reading from csv tests" />
     <MESSAGE value="add mapper tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add mapper tests" />
+    <MESSAGE value="restaurant, repository, tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="restaurant, repository, tests" />
   </component>
 </project>
