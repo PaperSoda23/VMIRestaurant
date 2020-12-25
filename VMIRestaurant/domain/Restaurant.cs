@@ -31,10 +31,10 @@ namespace VMIRestaurant.domain
         {
             var orderIngredients = GetOrderIngredients(order);
             
-            bool allIngredientsExist = AllIngredientsExist(orderIngredients);
-            bool hasSufficientFunds = HasSufficientIngredientStock(orderIngredients);
+            bool allIngredientsForOrderExist = AllIngredientsExist(orderIngredients);
+            bool hasSufficientIngredientStock = HasSufficientIngredientStock(orderIngredients);
             
-            return allIngredientsExist && hasSufficientFunds;
+            return allIngredientsForOrderExist && hasSufficientIngredientStock;
         }
 
         private IList<Ingredient> GetOrderIngredients(Order order)

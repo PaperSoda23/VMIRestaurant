@@ -97,9 +97,10 @@ namespace VMIRestaurant.UnitTests.domain
             _mockIngredientRepository.Setup(m => m.FindById(2)).Returns(ingredients[1]);
             _mockIngredientRepository.Setup(m => m.FindById(3)).Returns(ingredients[2]);
             
-            var (_, madeDishes) = _restaurant.ProcessOrder(order);
+            var (orderId, madeDishes) = _restaurant.ProcessOrder(order);
             
             Assert.Empty(madeDishes);
+            Assert.Equal(orderId, order.Id);
             Assert.Equal(0.9, _restaurant.GetIngredientStock(1));
             Assert.Equal(0.6, _restaurant.GetIngredientStock(2));
         }
