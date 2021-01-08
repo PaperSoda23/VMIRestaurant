@@ -36,12 +36,16 @@ namespace VMIRestaurant.domain
             var orderIngredients = _orderService.GetOrderIngredients(order);
             
             bool allIngredientsForOrderExist = _ingredientService.AllIngredientsExist(orderIngredients);
-            bool hasSufficientIngredientStock = HasSufficientIngredientStock(orderIngredients);
+            bool hasSufficientIngredientStock = HasSufficientIngredientStockToProcessOrder(orderIngredients);
             
             return allIngredientsForOrderExist && hasSufficientIngredientStock;
         }
-        
-        private static bool HasSufficientIngredientStock(IEnumerable<Ingredient> ingredients)
+        /// <summary>
+        /// checks if there will be enough ingredients to fulfill whole order
+        /// </summary>
+        /// <param name="ingredients"></param>
+        /// <returns>true if enough ingredients in stock to make every dish in order, else false</returns>
+        private static bool HasSufficientIngredientStockToProcessOrder(IEnumerable<Ingredient> ingredients)
         {
             return ingredients
                 .GroupBy(ingredient => ingredient.Id)
@@ -65,7 +69,11 @@ namespace VMIRestaurant.domain
 
             return dishes;
         }
-        
+        /// <summary>
+        /// decreases ingredient stock when making a dish
+        /// </summary>
+        /// <param name="dish">dish to be made</param>
+        /// <exception cref="Exception">when order decreased order stock is less than 0</exception>
         private void DecreaseStock(Dish dish)
         {
             var ingredients = _dishService.GetDishIngredients(dish);

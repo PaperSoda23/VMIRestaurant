@@ -16,7 +16,13 @@ namespace VMIRestaurant.service
             _dishRepository = dishRepository;
             _ingredientRepository = ingredientRepository;
         }
-
+        /// <summary>
+        /// adds a dish to the menu of a restaurant
+        /// 'add all ingredients when dish is added'? -> dish can't be added if all ingredients it requires does not exist
+        /// 'recipe can only have one portion of an ingredient'
+        /// </summary>
+        /// <param name="dish">dish to be added</param>
+        /// <exception cref="ArgumentException">dish with a name already exists or when not all dish ingredients exist for a dish</exception>
         public void AddDish(Dish dish)
         {
             var allDishIngredientsExist = new Func<Dish, bool>(d => 
@@ -29,10 +35,9 @@ namespace VMIRestaurant.service
 
             if (_dishRepository.ExistsByName(dish.Name))
                 throw new ArgumentException($"dish with name '{dish.Name}' already exists");
-            // 'recipe can only have one portion of an ingredient'
-            dish.IngredientIds = dish.IngredientIds.Distinct().ToList();
-            // 'add all ingredients when dish is added'?
-            // dish can't be added if all ingredients it requires does not exist
+            
+            dish.IngredientIds = dish.IngredientIds.Distinct().ToList(); // 'recipe can only have one portion of an ingredient'
+
             _dishRepository.Add(dish);
         }
 

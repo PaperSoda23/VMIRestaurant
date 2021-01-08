@@ -41,11 +41,15 @@ namespace VMIRestaurant.service
 
             _ingredientRepository.Update(existingIngredient.Id, ingredient);
         }
-        
+        /// <summary>
+        /// makes ingredient amount had to be 0
+        /// ingredient can't be deleted because other dish may require it
+        /// ingredient stock can only be zeroed (stock -> 0)
+        /// </summary>
+        /// <param name="ingredientName">name of an ingredient</param>
+        /// <exception cref="ArgumentException">when ingredient with a name does not exist</exception>
         public void ClearIngredientStock(string ingredientName)
         {
-            // ingredient can't be deleted because dish may require it
-            // ingredient stock can only be zeroed (stock -> 0)
             if (!_ingredientRepository.ExistsByName(ingredientName)) 
                 throw new ArgumentException($"ingredient {ingredientName} does not exist");
                 
