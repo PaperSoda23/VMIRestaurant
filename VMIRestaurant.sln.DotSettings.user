@@ -1,5 +1,5 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6ec956fb_002De474_002D4551_002D9ff8_002D78bb76811e73/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="wont_process_order_when_not_enough_ingredients" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6ec956fb_002De474_002D4551_002D9ff8_002D78bb76811e73/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="wont_process_order_when_not_enough_ingredients" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Or&gt;&#xD;
     &lt;TestAncestor&gt;&#xD;
       &lt;TestId&gt;xUnit::C8437830-E294-4D9C-8366-9CA32395C7FF::.NETCoreApp,Version=v3.1::VMIRestaurant.UnitTests.domain.RestaurantTests&lt;/TestId&gt;&#xD;
@@ -9,7 +9,7 @@
     &lt;Project Location="C:\Users\Lukas\Desktop\DirtyRider\VMIRestaurant\VMIRestaurant.UnitTests" Presentation="&amp;lt;VMIRestaurant.UnitTests&amp;gt;" /&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a50e05ae_002D3594_002D442d_002Db190_002D33960e7c6d1c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="processes_single_order" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a50e05ae_002D3594_002D442d_002Db190_002D33960e7c6d1c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="processes_single_order" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Or&gt;&#xD;
     &lt;TestAncestor&gt;&#xD;
       &lt;TestId&gt;xUnit::C8437830-E294-4D9C-8366-9CA32395C7FF::.NETCoreApp,Version=v3.1::VMIRestaurant.UnitTests.domain.RestaurantTests&lt;/TestId&gt;&#xD;
