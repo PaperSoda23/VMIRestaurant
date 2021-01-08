@@ -4,6 +4,7 @@ using Moq;
 using VMIRestaurant.data.repository.@interface;
 using VMIRestaurant.domain;
 using VMIRestaurant.domain.restaurant;
+using VMIRestaurant.service;
 using Xunit;
 
 namespace VMIRestaurant.UnitTests.domain
@@ -16,7 +17,11 @@ namespace VMIRestaurant.UnitTests.domain
         
         public RestaurantTests()
         {
-            _restaurant = new Restaurant(_mockIngredientRepository.Object, _mockDishRepository.Object);
+            _restaurant = new Restaurant(
+                new DishService(_mockDishRepository.Object, _mockIngredientRepository.Object),
+                new OrderService(_mockIngredientRepository.Object, _mockDishRepository.Object),
+                new IngredientService(_mockIngredientRepository.Object)
+            );
         }
         
         [Fact]

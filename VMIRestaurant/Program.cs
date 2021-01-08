@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 using VMIRestaurant.data.csv;
 using VMIRestaurant.data.csv.mapper;
@@ -7,6 +8,7 @@ using VMIRestaurant.data.repository;
 using VMIRestaurant.domain;
 using VMIRestaurant.domain.restaurant;
 using VMIRestaurant.helper;
+using VMIRestaurant.service;
 
 namespace VMIRestaurant
 {
@@ -34,8 +36,9 @@ namespace VMIRestaurant
             var dishRepo = new DishRepository(dishes);
             
             IRestaurant restaurant = new Restaurant(
-                ingredientRepo,
-                dishRepo
+                new DishService(dishRepo, ingredientRepo),
+                new OrderService(ingredientRepo, dishRepo),
+                new IngredientService(ingredientRepo)
             );
 
 
@@ -48,7 +51,7 @@ namespace VMIRestaurant
             {
                 var (orderId, preparedDishes) =  restaurant.ProcessOrder(order);
                 Console.WriteLine($"Order ID: {orderId}");
-                preparedDishes.ForEach(Console.WriteLine);
+                preparedDishes.ToList().ForEach(Console.WriteLine);
             });
             Console.WriteLine();
 

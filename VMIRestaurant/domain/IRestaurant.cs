@@ -5,6 +5,10 @@ namespace VMIRestaurant.domain
 {
     public interface IRestaurant
     {
-        (int, List<Dish>) ProcessOrder(Order order);
+        (int, IList<Dish>) ProcessOrder(Order order);
+        double GetIngredientStock(int ingredientId);
+        void ClearIngredientStock(string ingredientName);
+        void AddIngredient(Ingredient ingredient);
+        void AddDish(Dish dish);
     }
 }
