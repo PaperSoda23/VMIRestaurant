@@ -11,4 +11,4 @@ run tests:
 
 ### root project dir -> ~/VMIRestaurant
   - VMIRestaurant 
-  - VMIRestaurant/UnitTests
+  - VMIRestaurant.UnitTests
